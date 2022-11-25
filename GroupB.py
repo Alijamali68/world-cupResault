@@ -59,7 +59,7 @@ def PrintResault(Gamesres):
     for everyteam in Gamesres:
         for i in Gamesres[everyteam].items():
             if(counter<5):
-                temp+=str(i[0])+':'+str(i[1])+', '
+                temp+=str(i[0])+':'+str(i[1])+' , '
                 counter+=1
             else:
                 temp+=str(i[0])+':'+str(i[1])
